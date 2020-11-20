@@ -3,4 +3,4 @@
 * Template URL: https://github.com/toyaokeke/toyaokeke.github.io
 * Author: Toya Okeke
 */
-!function(){"use strict";"serviceWorker"in navigator&&window.addEventListener("load",function(){navigator.serviceWorker.register("assets/js/service-worker.js")})}();
+!function(){"use strict";"serviceWorker"in navigator&&window.addEventListener("load",function(){navigator.serviceWorker.register("/service-worker.js")})}();
