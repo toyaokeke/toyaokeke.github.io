@@ -1,6 +1,6 @@
 /**
 * Template Name: Toya Okeke
-* Template URL: https://toyaokeke.github.io
+* Template URL: https://github.com/toyaokeke/toyaokeke.github.io
 * Author: Toya Okeke
 */
 !function(c){"use strict";c("form.php-email-form").submit(function(t){var a=c(this).find(".form-group"),s=!1,i=/^[^\s()<>@,;:\/]+@\w[\w\.-]+\.[a-z]{2,}$/i;return a.children("input").each(function(){var t=c(this);if(void 0!==(e=t.attr("data-rule"))){var a,e,r=!1,n=e.indexOf(":",0);switch(e=0<=n?(a=e.substr(n+1,e.length),e.substr(0,n)):e.substr(n+1,e.length)){case"required":""===t.val()&&(s=r=!0);break;case"minlen":t.val().length<parseInt(a)&&(s=r=!0);break;case"email":i.test(t.val())||(s=r=!0);break;case"checked":t.is(":checked")||(s=r=!0);break;case"regexp":(a=new RegExp(a)).test(t.val())||(s=r=!0)}t.next(".validate").html(r?void 0!==t.attr("data-msg")?t.attr("data-msg"):"wrong Input":"").show("blind")}}),a.children("textarea").each(function(){var t=c(this);if(void 0!==(e=t.attr("data-rule"))){var a,e,r=!1,n=e.indexOf(":",0);switch(e=0<=n?(a=e.substr(n+1,e.length),e.substr(0,n)):e.substr(n+1,e.length)){case"required":""===t.val()&&(s=r=!0);break;case"minlen":t.val().length<parseInt(a)&&(s=r=!0)}t.next(".validate").html(r?null!=t.attr("data-msg")?t.attr("data-msg"):"wrong Input":"").show("blind")}}),!s&&(c("#contact-form").attr("action",atob("aHR0cHM6Ly9mb3Jtc3ByZWUuaW8vZi94cWtncGFybA")),!0)})}(jQuery);
