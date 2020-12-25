@@ -1,5 +1,5 @@
 /**
-* Template Name: Toya Okeke
+* Template Name: Toya Okeke's Portfolio
 * Template URL: https://github.com/toyaokeke/toyaokeke.github.io
 * Author: Toya Okeke
 */
