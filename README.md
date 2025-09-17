@@ -4,7 +4,7 @@ This is the production build of my personal website
 
 The site is built in a private development environment using the following tools and technologies:
 
-- [Node.js](https://nodejs.org/en/) as backend environment
+- [Node.js](https://nodejs.org/en/) as the backend environment
 - [Yarn](https://yarnpkg.com/) as a package manager
 - [Gulp](https://gulpjs.com/) as a task manager
 - [Nunjucks](https://mozilla.github.io/nunjucks/) as a templating engine
